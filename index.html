@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joydeep Paul | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Social Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
+    <!-- HERO SECTION -->
     <header class="hero">
         <div class="hero-container">
             <div class="hero-text">
@@ -28,6 +30,7 @@
         </div>
     </header>
 
+    <!-- VIDEO & METRICS SECTION -->
     <section class="video-metrics-section">
         <div class="container video-metrics-grid">
             <div class="video-wrapper">
@@ -48,6 +51,7 @@
         </div>
     </section>
 
+    <!-- TABBED RESUME SECTION -->
     <section class="resume-section">
         <div class="container resume-grid">
             <div class="resume-left">
@@ -62,6 +66,7 @@
                 </div>
             </div>
             <div class="resume-right">
+                <!-- About Me -->
                 <div id="about" class="tab-content active">
                     <h3>About Me</h3>
                     <p class="bio-text">Techno-functional professional with over 5 years of experience in connecting technical architectures with business goals. I specialize in using AI and SaaS environments to improve product discovery and performance. By turning high-level ideas into workable PRDs, I have successfully led cross-functional teams of over 20 people using Agile Scrum framework. I am skilled in using wireframes and rapid prototyping to keep stakeholders on the same page and ensure roadmaps meet business needs through focused product ownership.</p>
@@ -74,6 +79,7 @@
                     </ul>
                 </div>
 
+                <!-- Experience -->
                 <div id="experience" class="tab-content">
                     <h3>Experience</h3>
                     <div class="timeline-item">
@@ -88,6 +94,7 @@
                     </div>
                 </div>
 
+                <!-- Education -->
                 <div id="education" class="tab-content">
                     <h3>Education</h3>
                     <div class="timeline-item">
@@ -102,6 +109,7 @@
                     </div>
                 </div>
 
+                <!-- Skills -->
                 <div id="skills" class="tab-content">
                     <h3>Skills</h3>
                     <div class="skills-grid">
@@ -114,6 +122,7 @@
                     </div>
                 </div>
 
+                <!-- Awards -->
                 <div id="awards" class="tab-content">
                     <h3>Awards</h3>
                     <div class="awards-grid">
@@ -137,32 +146,37 @@
         </div>
     </section>
 
+    <!-- PORTFOLIO / WORK SECTION -->
     <section class="portfolio-section">
         <div class="container">
             <p class="section-tag text-center">Portfolio</p>
             <h2 class="text-center">My recent work</h2>
             
             <div class="portfolio-grid">
+                <!-- Card 1 -->
                 <div class="portfolio-card" onclick="openModal('modal1')">
-                    <img src="Value Management.jpg" alt="Value Management Thumbnail">
+                    <img src="Value Management.png" alt="Value Management Thumbnail">
                     <div class="card-info">
                         <h4>Decoding Value Management</h4>
                     </div>
                 </div>
+                <!-- Card 2 -->
                 <div class="portfolio-card" onclick="openModal('modal2')">
-                    <img src="GTM.jpg" alt="GTM Strategy Thumbnail">
+                    <img src="GTM.png" alt="GTM Strategy Thumbnail">
                     <div class="card-info">
                         <h4>Product & GTM Strategy</h4>
                     </div>
                 </div>
+                <!-- Card 3 -->
                 <div class="portfolio-card" onclick="openModal('modal3')">
                     <img src="AI Product Sense.jpg" alt="AI Product Sense Thumbnail">
                     <div class="card-info">
                         <h4>E-Commerce Cart Recovery Assistant</h4>
                     </div>
                 </div>
+                <!-- Card 4 -->
                 <div class="portfolio-card" onclick="openModal('modal4')">
-                    <img src="UIUX Design Thinking.jpg" alt="UIUX Design Thinking Thumbnail">
+                    <img src="UIUX Design Thinking.png" alt="UIUX Design Thinking Thumbnail">
                     <div class="card-info">
                         <h4>UI/UX Simulation & PRD Designing</h4>
                     </div>
@@ -171,6 +185,7 @@
         </div>
     </section>
 
+    <!-- TESTIMONIALS SECTION -->
     <section class="testimonials-section">
         <div class="container">
             <p class="section-tag text-center">Testimonial</p>
@@ -195,13 +210,14 @@
         </div>
     </section>
 
+    <!-- BLOG SECTION -->
     <section class="blog-section">
         <div class="container text-center">
             <p class="section-tag">Blog</p>
             <h2>My blog post</h2>
             <div class="blog-card-center">
                 <a href="https://www.wipro.com/blogs/anitha-irisappan/unlock-the-power-of-ai-with-360-visibility-of-business-and-it/" target="_blank">
-                    <img src="Wipro.com blog post.jpg" alt="Unlock the power of AI with 360 degree visibility of Business and IT" class="blog-img">
+                    <img src="Wipro.com blog post.png" alt="Unlock the power of AI with 360 degree visibility of Business and IT" class="blog-img">
                     <div class="blog-info">
                         <span class="blog-date">May 18, 2026</span>
                         <h4>Unlock the power of AI with 360 degree visibility of Business and IT</h4>
@@ -212,11 +228,13 @@
         </div>
     </section>
 
+    <!-- DYNAMIC PORTFOLIO MODALS -->
+    <!-- Modal 1: Value Management -->
     <div id="modal1" class="modal">
         <div class="modal-content">
             <span class="close-btn" onclick="closeModal('modal1')">&times;</span>
             <h2>Decoding Value management</h2>
-            <img src="Value Management.jpg" alt="Value Management Process" class="modal-img-large">
+            <img src="Value Management.png" alt="Value Management Process" class="modal-img-large">
             <h3>Overview</h3>
             <p>Here I have tried to analyse the premier jewelry brand through the lens of 5-phase Value Management Framework (Value Discovery, Product Creation, Value Capture, Marketing & Communication & Value Delivery) which transformed an opaque commodity market into a transparent high margin ecosystem</p>
             <div class="modal-actions">
@@ -226,11 +244,12 @@
         </div>
     </div>
 
+    <!-- Modal 2: GTM Strategy -->
     <div id="modal2" class="modal">
         <div class="modal-content">
             <span class="close-btn" onclick="closeModal('modal2')">&times;</span>
             <h2>Product & GTM Strategy</h2>
-            <img src="GTM.jpg" alt="GTM Strategy" class="modal-img-large">
+            <img src="GTM.png" alt="GTM Strategy" class="modal-img-large">
             <h3>Overview</h3>
             <p><strong>Strategic Go-to-Market Execution:</strong> Developed and executed GTM strategies envisioned for improving product-market fit in key geographical segments.</p>
             <p><strong>Revenue & Pipeline Growth:</strong> Generated a high-intent sales pipeline worth 30K INR within 3 months, achieving the 2nd highest performance rank across all geographies.</p>
@@ -240,6 +259,7 @@
         </div>
     </div>
 
+    <!-- Modal 3: AI Product Sense -->
     <div id="modal3" class="modal">
         <div class="modal-content">
             <span class="close-btn" onclick="closeModal('modal3')">&times;</span>
@@ -254,11 +274,12 @@
         </div>
     </div>
 
+    <!-- Modal 4: UI/UX Design Thinking -->
     <div id="modal4" class="modal">
         <div class="modal-content">
             <span class="close-btn" onclick="closeModal('modal4')">&times;</span>
             <h2>UI/UX Simulation & PRD designing</h2>
-            <img src="UIUX Design Thinking.jpg" alt="UIUX Design Thinking" class="modal-img-large">
+            <img src="UIUX Design Thinking.png" alt="UIUX Design Thinking" class="modal-img-large">
             <h3>Overview</h3>
             <p>An end-to-end UX and PRD designing a seamless 'Ad-free Model' feature in YouTube to eliminate jarring and disruptions for real-time mobile users. Grounded in user persona research and pain-point prioritization, the solution maps out structured primary/alternate flows and edge case analysis for engineering alignment. The workflow is supported by mid-fidelity Figma wireframes, designed for seamless tech handoff.</p>
             <div class="modal-actions">
@@ -267,6 +288,7 @@
         </div>
     </div>
 
+    <!-- FOOTER -->
     <footer>
         <div class="container footer-container">
             <div class="footer-socials">

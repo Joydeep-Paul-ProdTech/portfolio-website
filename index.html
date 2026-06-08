@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joydeep Paul | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <p class="hero-greeting">— Hello, I'm 👋</p>
+                <h1>Joydeep Paul</h1>
+                <p class="hero-subtitle">Product and AI Lead</p>
+                <div class="hero-metrics-top">
+                    <span><strong>7</strong> Worldwide clients</span>
+                    <span class="divider">|</span>
+                    <a href="https://www.linkedin.com/in/joydeep-paul-product-and-ai-lead-39999b146" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Joydeep-Paul-ProdTech/ai-execution-specialist" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="LinkedIn Pic.jpeg" alt="Joydeep Paul Profile">
+            </div>
+        </div>
+    </header>
+
+    <!-- VIDEO & METRICS SECTION -->
+    <section class="video-metrics-section">
+        <div class="container video-metrics-grid">
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/DfSodmaewYs" title="Video Resume" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="metrics-block">
+                <div class="experience-badge">
+                    <span class="exp-number">5+</span>
+                    <span class="exp-text">Years of<br>experience</span>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item"><h3>05</h3><p>Awards won</p></div>
+                    <div class="stat-item"><h3>7</h3><p>Worldwide clients</p></div>
+                    <div class="stat-item"><h3>10</h3><p>Projects done successfully</p></div>
+                </div>
+                <a href="https://drive.google.com/file/d/1VlyGsoG6votJUL6OMEcEK2oZjRIdbCww/view?usp=sharing" target="_blank" class="btn-primary">Download My Resume <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TABBED RESUME SECTION -->
+    <section class="resume-section">
+        <div class="container resume-grid">
+            <div class="resume-left">
+                <p class="section-tag">Resume</p>
+                <h2>MORE ABOUT ME...</h2>
+                <div class="tab-menu">
+                    <button class="tab-btn active" onclick="openTab(event, 'about')">About Me <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="tab-btn" onclick="openTab(event, 'experience')">Experience <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="tab-btn" onclick="openTab(event, 'education')">Education <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="tab-btn" onclick="openTab(event, 'skills')">Skills <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="tab-btn" onclick="openTab(event, 'awards')">Awards <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="resume-right">
+                <!-- About Me -->
+                <div id="about" class="tab-content active">
+                    <h3>About Me</h3>
+                    <p class="bio-text">Techno-functional professional with over 5 years of experience in connecting technical architectures with business goals. I specialize in using AI and SaaS environments to improve product discovery and performance. By turning high-level ideas into workable PRDs, I have successfully led cross-functional teams of over 20 people using Agile Scrum framework. I am skilled in using wireframes and rapid prototyping to keep stakeholders on the same page and ensure roadmaps meet business needs through focused product ownership.</p>
+                    <ul class="info-list">
+                        <li><strong>Name:</strong> Joydeep Paul</li>
+                        <li><strong>Nationality:</strong> India</li>
+                        <li><strong>Phone:</strong> 9836106186</li>
+                        <li><strong>Email:</strong> joydeeppaul963@gmail.com</li>
+                        <li><strong>Languages:</strong> English, Hindi, Bengali</li>
+                    </ul>
+                </div>
+
+                <!-- Experience -->
+                <div id="experience" class="tab-content">
+                    <h3>Experience</h3>
+                    <div class="timeline-item">
+                        <span class="date">06/2022 - 11/2025</span>
+                        <h4>Consultant</h4>
+                        <p class="company">Wipro Ltd</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">07/2017 - 07/2019</span>
+                        <h4>Machine Learning Data Associate</h4>
+                        <p class="company">Amazon India Pvt Ltd</p>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div id="education" class="tab-content">
+                    <h3>Education</h3>
+                    <div class="timeline-item">
+                        <span class="date">10/2020 - 05/2022</span>
+                        <h4>Masters of Business Administration (MBA) / Marketing & IB</h4>
+                        <p class="company">Institute of Management Studies, BHU</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">06/2013 - 03/2017</span>
+                        <h4>B.Tech / Electronics & Communications Engineering</h4>
+                        <p class="company">Bengal Institute of Technology, MAKAUT</p>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div id="skills" class="tab-content">
+                    <h3>Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card"><h5>AI Product Lifecycle Management (80%)</h5><p>Managing full-stack monitoring solutions for Infrastructure, DB & Front-End</p></div>
+                        <div class="skill-card"><h5>Rapid Prototyping (60%)</h5><p>Skilled in wireframing and iterative low-to-mid fidelity AgenticAI and embeddedAI prototyping</p></div>
+                        <div class="skill-card"><h5>Design Thinking (50%)</h5><p>Implementing 'Deviation Triggers' and 'Edge cases' within AI workflows to optimize 'judgment gaps'</p></div>
+                        <div class="skill-card"><h5>Agile Scrum (60%)</h5><p>Driving Scrum ceremonies like Backlog refinement, Sprint planning & Daily Stand-ups during delivery</p></div>
+                        <div class="skill-card"><h5>Cross-Functional Leadership (60%)</h5><p>Bootstrapping AI-SaaS lab environments for product-build and launch by leading team</p></div>
+                        <div class="skill-card"><h5>Partnership though Stakeholder Management (70%)</h5><p>Managing alliance for strategic partners to build joint solutions, curate value-propositions and GTM</p></div>
+                    </div>
+                </div>
+
+                <!-- Awards -->
+                <div id="awards" class="tab-content">
+                    <h3>Awards</h3>
+                    <div class="awards-grid">
+                        <div class="award-card">
+                            <span class="year">2023</span>
+                            <h4>Wipro Innovation Award (Team Category)</h4>
+                            <img src="Innovation Award.jpg" alt="Innovation Award Thumbnail" class="award-thumb">
+                        </div>
+                        <div class="award-card">
+                            <span class="year">2020</span>
+                            <h4>Wipro Exemplary Enabler - Best Support Function</h4>
+                        </div>
+                        <div class="award-card">
+                            <span class="year">2024</span>
+                            <h4>Best Newsletter Award (3rd Place)</h4>
+                            <p>Chief Editor of Toastmasters Club</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO / WORK SECTION -->
+    <section class="portfolio-section">
+        <div class="container">
+            <p class="section-tag text-center">Portfolio</p>
+            <h2 class="text-center">My recent work</h2>
+            
+            <div class="portfolio-grid">
+                <!-- Card 1 -->
+                <div class="portfolio-card" onclick="openModal('modal1')">
+                    <img src="Value Management.png" alt="Value Management Thumbnail">
+                    <div class="card-info">
+                        <h4>Decoding Value Management</h4>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="portfolio-card" onclick="openModal('modal2')">
+                    <img src="GTM.png" alt="GTM Strategy Thumbnail">
+                    <div class="card-info">
+                        <h4>Product & GTM Strategy</h4>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="portfolio-card" onclick="openModal('modal3')">
+                    <img src="AI Product Sense.jpg" alt="AI Product Sense Thumbnail">
+                    <div class="card-info">
+                        <h4>E-Commerce Cart Recovery Assistant</h4>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="portfolio-card" onclick="openModal('modal4')">
+                    <img src="UIUX Design Thinking.png" alt="UIUX Design Thinking Thumbnail">
+                    <div class="card-info">
+                        <h4>UI/UX Simulation & PRD Designing</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials-section">
+        <div class="container">
+            <p class="section-tag text-center">Testimonial</p>
+            <h2 class="text-center">What do leaders and my peers say about me</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+                    <p>"I had the pleasure of working with Joydeep as part of AIOps Practice. We have worked on the use cases for Dynatrace in the past. I was impressed by Joydeep's knowledge and understanding of the concepts across multiple AIOps tools. He is always there to help out and take guidance from. He is/would be an asset to any team and I'm confident that Joydeep will have a bright future in his chosen career path."</p>
+                    <h4>- Kanwardeep Singh</h4>
+                </div>
+                <div class="testimonial-card">
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+                    <p>"Absolutely thrilled to recommend Joydeep for his exceptional support during the Gen AI POC for SAP AMS at the ABB Accelerator event! In a remarkably short time frame, Joydeep's expertise and dedication were instrumental in our success, propelling us into the Top 10. His commitment to excellence and seamless collaboration truly made a difference, showcasing his outstanding skills and professionalism..."</p>
+                    <h4>- Samrat Sengupta</h4>
+                </div>
+                <div class="testimonial-card">
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+                    <p>"Joydeep is known for his timely communication, consistency and remarkable responsiveness to the requests of peers, associates and subordinates alike. His genuine curiosity in learning new technologies, tools and processes, drives him to delve deeper into Techno-functional tasks and execute them with perfection..."</p>
+                    <h4>- Munishkumar Prakasam</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG SECTION -->
+    <section class="blog-section">
+        <div class="container text-center">
+            <p class="section-tag">Blog</p>
+            <h2>My blog post</h2>
+            <div class="blog-card-center">
+                <a href="https://www.wipro.com/blogs/anitha-irisappan/unlock-the-power-of-ai-with-360-visibility-of-business-and-it/" target="_blank">
+                    <img src="Wipro.com blog post.png" alt="Unlock the power of AI with 360 degree visibility of Business and IT" class="blog-img">
+                    <div class="blog-info">
+                        <span class="blog-date">May 18, 2026</span>
+                        <h4>Unlock the power of AI with 360 degree visibility of Business and IT</h4>
+                        <span class="view-link">View Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- DYNAMIC PORTFOLIO MODALS -->
+    <!-- Modal 1: Value Management -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal1')">&times;</span>
+            <h2>Decoding Value management</h2>
+            <img src="Value Management.png" alt="Value Management Process" class="modal-img-large">
+            <h3>Overview</h3>
+            <p>Here I have tried to analyse the premier jewelry brand through the lens of 5-phase Value Management Framework (Value Discovery, Product Creation, Value Capture, Marketing & Communication & Value Delivery) which transformed an opaque commodity market into a transparent high margin ecosystem</p>
+            <div class="modal-actions">
+                <a href="https://drive.google.com/file/d/1otSEA6cKMWAMo2xudWJmfRnuQ6RtF73p/view?usp=sharing" target="_blank" class="btn-secondary">View Project Case Study</a>
+                <a href="https://youtu.be/Jh0kWsDagRo" target="_blank" class="btn-video"><i class="fa-solid fa-play"></i> Watch Video</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: GTM Strategy -->
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal2')">&times;</span>
+            <h2>Product & GTM Strategy</h2>
+            <img src="GTM.png" alt="GTM Strategy" class="modal-img-large">
+            <h3>Overview</h3>
+            <p><strong>Strategic Go-to-Market Execution:</strong> Developed and executed GTM strategies envisioned for improving product-market fit in key geographical segments.</p>
+            <p><strong>Revenue & Pipeline Growth:</strong> Generated a high-intent sales pipeline worth 30K INR within 3 months, achieving the 2nd highest performance rank across all geographies.</p>
+            <div class="modal-actions">
+                <a href="https://drive.google.com/file/d/1GtchsnW-PBCs5r9vhJHrcqEzj8_amPVF/view?usp=sharing" target="_blank" class="btn-secondary">View GTM Framework</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: AI Product Sense -->
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal3')">&times;</span>
+            <h2>E-commerce cart recovery assistant</h2>
+            <img src="AI Product Sense.jpg" alt="AI Product Sense" class="modal-img-large">
+            <h3>Overview</h3>
+            <p>A domain-agnostic, AI-native framework designed as a Primary Resolver for complex business processes. Using an E-commerce Cart Abandonment use case, I tried to demonstrate how to move from rigid automation to self-correcting Agentic AI 'Skills'.</p>
+            <div class="modal-actions">
+                <a href="https://drive.google.com/file/d/1vHBD9x_7Ff3U7UpYFLm4xSvcgoGxmBHH/view?usp=sharing" target="_blank" class="btn-secondary">View Case Document</a>
+                <a href="https://youtu.be/02-Nx2caV0g" target="_blank" class="btn-video"><i class="fa-solid fa-play"></i> Watch Project Walkthrough</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4: UI/UX Design Thinking -->
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal4')">&times;</span>
+            <h2>UI/UX Simulation & PRD designing</h2>
+            <img src="UIUX Design Thinking.png" alt="UIUX Design Thinking" class="modal-img-large">
+            <h3>Overview</h3>
+            <p>An end-to-end UX and PRD designing a seamless 'Ad-free Model' feature in YouTube to eliminate jarring and disruptions for real-time mobile users. Grounded in user persona research and pain-point prioritization, the solution maps out structured primary/alternate flows and edge case analysis for engineering alignment. The workflow is supported by mid-fidelity Figma wireframes, designed for seamless tech handoff.</p>
+            <div class="modal-actions">
+                <a href="https://drive.google.com/file/d/1WopXNb-nyeK34g3zZkEFH-SAabWj-1Rt/view?usp=sharing" target="_blank" class="btn-secondary">View Figma & PRD Files</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/joydeep-paul-product-and-ai-lead-39999b146" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Joydeep-Paul-ProdTech/ai-execution-specialist" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p class="copyright">Copyright © 2026 Institute of Product Leadership. All Rights Reserved</p>
+            <a href="#" class="back-to-top">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
